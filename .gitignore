@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+
+# Docker
+.dockerignore
+
+# Project-specific files
+python_deps/
+python_deps.zip
+model/anomaly_model.joblib
