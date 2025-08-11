@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 # Kafka broker connection
-producer = KafkaProducer(bootstrap_servers='localhost:9092')
+producer = KafkaProducer(bootstrap_servers='kafka:29092')
 topic_name = 'time-series-data'
 
 # Generate and send data
