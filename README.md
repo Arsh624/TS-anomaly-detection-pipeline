@@ -2,7 +2,7 @@
 
 This project is a real-time data processing and machine learning pipeline for detecting anomalies in streaming data. It's built to demonstrate a practical, end-to-end MLOps workflow using containerized services and distributed computing.
 
-## Key Features ✨
+## Key Features 
 
 * **Real-Time Data Ingestion:** A Kafka producer sends a continuous stream of time-series data.
 * **Streaming Analytics:** An Apache Spark streaming job processes data in real-time batches.
@@ -22,7 +22,7 @@ The project's architecture is a classic streaming pipeline. The Kafka producer a
 * **PySpark**: The distributed processing engine for running the ML pipeline.
 * **scikit-learn**: For the anomaly detection model (`IsolationForest`).
 
-## How to Run the Project 🚀
+## How to Run the Project 
 
 **Prerequisites:**
 * A Linux environment with Docker and Docker Compose installed.
